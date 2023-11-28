@@ -1,0 +1,32 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* Adjust as needed for responsiveness */
+  }
+  
+  .section {
+    padding: 40px 0;
+  }
+  
+  /* Flexbox for layout */
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Grid for layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    /* Add more responsive styles */
+  }
+  

@@ -1,0 +1,28 @@
+/* Define your own color palette */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #555;
+  }
+  
+  /* Apply colors to specific elements */
+  a {
+    color: var(--primary-color);
+  }
+  
+  .button {
+    background-color: var(--secondary-color);
+    color: white;
+    /* Add more styles as needed */
+  }
+  
+  /* Example of using colors for different sections */
+  .section-one {
+    background-color: #f9f9f9;
+    color: var(--text-color);
+  }
+  .section-two {
+    background-color: #fff;
+    color: var(--primary-color);
+  }
+  
